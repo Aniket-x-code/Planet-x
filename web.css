@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.one
+{   width: 800px;
+    height: 600px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(76, 57, 109), rgb(84, 101, 140), rgb(84, 145, 172), rgb(73, 191, 205), rgb(32, 239, 239));
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, .5) ;
+    display:flex;
+    gap: 10%;
+
+}
+
+.one .imag
+{
+    flex:0 0 200px;
+}
+
+.imag img
+{
+    max-width: 100%;
+}
+
+.content h1
+{
+    padding-left: 10px;
+}
+
+.content p
+{
+    padding-left: 10px
+  
+}
